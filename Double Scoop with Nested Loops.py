@@ -17,6 +17,6 @@ times = ["morning", "afternoon", "evening"]
 for day in days:
     for time in times:
         mood = random.choice(moods)
-        print(f"On\n{day} {time}, you felt {mood}.")
+        print(f"On {day} {time}, you felt {mood}.")
 
     
